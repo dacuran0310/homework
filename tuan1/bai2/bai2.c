@@ -4,11 +4,11 @@
 #include <stdlib.h>
 void main()
 {
-    int demhoa, demthuong,i,n;
+    int big, normal,i,n;
     char a[100];
     printf("Input: ");
-    gets(a);demhoa=0;
-    demthuong=0;
+    gets(a);big=0;
+    normal=0;
     i=0;
     n= strlen(a);
 for(i=0;i<=n;i++)
@@ -16,16 +16,16 @@ for(i=0;i<=n;i++)
 
     if(a[i]>=65&&a[i]<=90)
     {
-    demhoa=demhoa+1;
+    big=big+1;
 
     }
     else if(a[i]>=97&&a[i]<=122)
     {
-        demthuong=demthuong +1;
+        normal=normal +1;
 
 
     }
 }
-printf("so chu hoa la :%d\n",demhoa);
-printf("so chu thuong la :%d\n",demthuong);
+printf("has %d big word\n",big);
+printf("has %d normal word\n",normal);
 }

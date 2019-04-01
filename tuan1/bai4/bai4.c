@@ -1,6 +1,6 @@
 #include<stdio.h>
 int h,i,j;
-void insao()
+void star()
 {
     for(i=0;i<h;i++)
     {
@@ -12,7 +12,7 @@ void insao()
 }
 main()
 {
-    printf("nhap h ");
+    printf("high h : ");
     scanf("%d",&h);
     insao();
 }

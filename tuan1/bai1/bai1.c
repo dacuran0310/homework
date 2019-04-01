@@ -3,7 +3,7 @@
  int main()
  {
      int a,b,c,n,tg;
-     printf("\n nhap so co 3 chu so ");
+     printf("\n Enter 3 numbers ");
      scanf("%d",&n);
      a=n/100;
      b=(n%100)/10;
@@ -20,7 +20,7 @@
      {
          tg=b;b=c;c=tg;
      }
-     printf("\n tang dan %d%d%d",a,b,c);
+     printf("\n 3numbers increase %d%d%d",a,b,c);
      getch();
      return 0;
  }

@@ -2,7 +2,7 @@
 #include<conio.h>
 void main(){
     int a,cost;
-printf("nhap quang duong da di(don vi :m) :");
+printf("distance(m) :");
 scanf("%d",&a);
 
 if(a<=1000)
@@ -26,7 +26,7 @@ else if(a>30000)
 }
 
 
-printf("gia tien phai tra %d VND",cost);
+printf("the money have to pay :%d VND",cost);
 
 
 }

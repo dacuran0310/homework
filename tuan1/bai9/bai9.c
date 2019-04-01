@@ -2,9 +2,9 @@
 #include<conio.h>
 void main() {
     int m,n,a[50][50],i,j,b[50],c[50],tg=0;
-printf("nhap so hang`");
+printf("line:");
 scanf("%d",&m);
-printf("nhap so cot ");
+printf("column: ");
 scanf("%d", &n);
 for(i=1;i<=n;i++)
 {
@@ -23,10 +23,10 @@ for(i=1;i<=n;i++)
     printf(" %d ",a[i][j]);
 }
 }
-printf("\nnhap vecto n \n");
+printf("\n vecto: n \n");
 for(i=1;i<=n;i++)
 {
-    printf("nhap b[%d] =",i);
+    printf(" b[%d] =",i);
     scanf("%d",&b[i]);
 }
 for(i=1;i<=n;i++)

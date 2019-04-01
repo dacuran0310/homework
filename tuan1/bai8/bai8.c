@@ -3,8 +3,8 @@
 int main()
 {
     char a[100];
-printf("nhap xau can tao :");
+printf("write chain :");
 gets(a);
-printf("chuoi dao nguoc : %s", strrev(a));
+printf("reverse chain : %s", strrev(a));
 return 0 ;
 }
